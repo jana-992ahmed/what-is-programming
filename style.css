@@ -1,0 +1,316 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    padding-left: 55px;
+    padding-right:55px;
+    background: rgb(247, 245, 245);
+    position: relative;
+    
+}
+a.gotoptbn{
+     position: fixed;
+     width: 50px;
+     height: 50px;
+     background: #2f91af;
+     bottom: 40px;
+     right: 10px;
+     text-decoration: none;
+     text-align: center;
+     line-height: 40px;
+     color: rgb(255, 255, 255);
+     font-size: 22px;
+     border-radius: 100%;
+}
+
+nav{
+    margin: 0;
+    background: linear-gradient(90deg,white,#2f91af,black);
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+    
+}
+div.navbar-header{
+    margin: 0;
+    border-radius: 12px;
+    font-size: 25px;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    transition: all .1s ;
+    position: relative;
+}
+div.navbar-header:hover{
+    color: blanchedalmond;
+    font-size: 27px;
+}
+
+ul.nav navbar-nav{  
+    border-radius: 12px;
+    font-size: 20px;
+    color: black;
+    display: inline;
+    text-decoration: none;  
+    position: relative;
+}
+
+li{
+    display: inline;
+    margin: 60px;
+}
+  /*home and others*/
+a{
+    font-size: 20px;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    transition: all .1s ;
+}
+a:hover{
+    color: blanchedalmond;
+    font-size:25px ;
+}
+
+/*home and others*/
+div.header-1{
+    border-radius: 12px;
+    margin: 10px;
+    background: #f0efef;
+    text-transform: capitalize;
+    position: relative;
+    padding: 50px;
+    font-size: x-large;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+}
+section-1{
+    margin: 10px;
+    padding: 50px;
+    border-radius: 12px;
+    background: #f0efef;
+    text-transform: capitalize;
+    white-space: pre;
+    font-size: large;
+    position: relative;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+    
+}
+div#section-1{
+    position: relative;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    background: #f0efef;
+    text-transform: capitalize;
+    white-space: pre;
+    font-size: large;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+}
+span{
+    
+    border: 5px dotted #2f91af;
+    color: #2f91af;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+img.section{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px solid hsla(210, 6%, 7%, 0.548);
+    transition: width 1s, height 1s;
+   
+    
+}
+img.section:hover{
+    width: 350px;
+    height: 350px;
+    
+    margin-right: 0px;
+}
+div.p1{
+    top: 60px;
+    right: 60px;
+    float: right;
+    white-space: pre-line;
+    display: inline;
+    font-size: 18px;
+    background: linear-gradient(90deg,white,rgb(120, 165, 190),rgb(97, 97, 97));
+    border-radius: 12px;
+    padding-left: 40px;
+    font-weight: 600px;
+    box-shadow: 5px 5px 5px rgb(120, 165, 190);
+}
+div.p2{
+    top: 60px;
+    right: 60px;
+    float: right;
+    white-space: pre-line;
+    display: inline;
+    font-size: 18px;
+    background: linear-gradient(90deg,white,rgb(120, 165, 190),rgb(97, 97, 97));
+    border-radius: 12px;
+    padding-left: 40px;
+    font-weight: 600px;
+    box-shadow: 5px 5px 5px rgb(120, 165, 190);
+}
+div.p3{
+    top: 60px;
+    right: 40px;
+    float: right;
+    white-space: pre-line;
+    display: inline;
+    font-size: 18px;
+    background: linear-gradient(90deg,white,rgb(120, 165, 190),rgb(97, 97, 97));
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-weight: 600px;
+    box-shadow: 5px 5px 5px rgb(120, 165, 190);
+}
+div#section-2{
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+    background: #f0efef;
+    text-transform: capitalize;
+    white-space: pre;
+    font-size: large;
+    position: relative;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+}
+section{
+    font-size: x-large; 
+    background: linear-gradient(90deg,white,rgb(120, 165, 190),rgb(97, 97, 97));
+    color: black;
+    transition: all 1s;
+    width: 100%;
+    position: relative;
+    white-space: pre-line;
+    text-align: center;
+    
+
+}
+section:hover{
+    color:blanchedalmond
+}
+h3{
+   margin-left: 10px;
+   font-size: 20px;
+   padding: 1px;
+}
+details{
+    background: linear-gradient(90deg,white,rgb(120, 165, 190),rgb(97, 97, 97));
+    display: flex;
+    float: left;
+    position: relative;
+    border-radius: 12px;
+    white-space: pre;
+    white-space: pre-line;
+}
+summary h3{
+    color: black;
+    transition: all 1s;
+    white-space: pre-line;
+    position: relative;
+
+
+}
+summary h3:hover{
+    color: blanchedalmond;
+}
+q{
+    font-size:x-large;
+    flex-wrap: wrap;
+    white-space: pre;
+    float: left;
+    white-space: pre-line;
+    display: inline;
+    color: black;
+    transition: all 1s;
+}
+q:hover{
+    color: blanchedalmond;
+}
+img.post{
+    margin-top: 0px;
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+    position: relative;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 2px 2px 5px #5a6a6e,-2px -2px 5px #5a6a6e;
+}
+
+div#section-3{
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+    background: #f0efef;
+    text-transform: capitalize;
+    white-space: pre;
+    font-size: large;
+    position: relative;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+}
+div.ques1{
+    border-radius: 12px;
+    background: #cfcccc;
+    border-left:4px solid lightblue;
+    position: relative;
+    white-space: pre-line;
+    padding: 12px;
+
+} 
+bdo{
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-line;
+} 
+div.ques2{
+    border-radius: 12px;
+    background: #ffffff;
+    position: relative;
+    white-space: pre-line;
+    padding: 12px;
+    border-left:4px solid lightblue;
+}
+div#section-4{
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    margin: 10px;
+    text-transform: capitalize;
+    white-space: pre;
+    font-size: large;
+    position: relative;
+    box-shadow: 10px 10px 5px hsl(0, 2%, 88%);
+}
+dl{
+    color: #fff;
+    position: relative; 
+}
+dt{
+    position: relative;
+    margin-left: 10%;
+}
+dd{
+    color: #fff;
+    display: inline-flex;
+    position: relative;
+    
+}
+a.footer{
+    color:#fff;
+    font-size: medium;
+    transition: all .5s;
+}
+a.footer:hover{
+    border-bottom: 4px solid #2f91af;
+    font-size: large;
+}
